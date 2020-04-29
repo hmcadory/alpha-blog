@@ -7,5 +7,29 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/alpha_blog_development</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="Rails alpha-blog: development" uuid="27aa01bb-0ddb-4708-9ba9-a679e57d127b">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/alpha_blog_development</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails alpha-blog: production" uuid="d152fd34-4c1a-4cd3-b8ea-46c265329b33">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/alpha_blog_production</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails alpha-blog: test" uuid="1a36abda-30b6-46c6-8284-e958e8ba5e72">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/alpha_blog_test</jdbc-url>
+    </data-source>
   </component>
 </project>
