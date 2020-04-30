@@ -3,6 +3,7 @@
 <table>
   <thead>
     <tr>
+      <th>Id</th>
       <th>Title</th>
       <th>Description</th>
       <th>Actions</th>
@@ -12,6 +13,7 @@
   <tbody>
     <% @article.each do |article| %>
       <tr>
+        <td><%= article.id %></td>
         <td><%= article.title %></td>
         <td><%= article.description %></td>
         <td>Some options</td>
