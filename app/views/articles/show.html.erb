@@ -5,3 +5,10 @@
 <p><strong>Description: </strong><%= @article.description %></p>
 <p><strong>Created at: </strong><%= @article.created_at %></p>
 <p><strong>Updated at: </strong><%= @article.updated_at %></p>
+
+<p>
+  <%= link_to 'Edit', edit_article_path(@article) %> |
+  <%= link_to 'Delete', article_path(@article), method: :delete, data: { confirm: "Are you sure?"} %> |
+  <%= link_to 'Return to articles listing', articles_path %>
+</p>
+
